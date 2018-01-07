@@ -1,0 +1,440 @@
+/* BASIS CSS */
+body{
+	background-color: #fafafa;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+	height: 100vh;
+}
+
+img {
+	max-width: 100%;
+}
+
+a { 
+	text-decoration: none;
+	color: #fafafa;
+}
+
+b {
+	font-weight: 700;
+}
+
+input {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.container {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+/* Hamburger menu */
+
+.hamburgermenu {
+    width: 2.2%;
+    margin-left: 79%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#hamburgericon{
+    cursor: pointer;
+    height: 25px;
+    background: url(/Design/hamburgericon.svg);
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+div.hamburgershow {
+	display: none;
+	color: #2c2c2c;
+	margin-left: -175px;
+	position: flex;
+	flex-direction: column;
+}
+
+.hamburgerlink{
+    background-color: rgba(66, 66, 66, 0.1);
+	padding: 2px 5px 2px 5px;
+	transition: 0.5s;
+	border-bottom: 2px solid #616161;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+.hamburgerlink:hover{
+	background-color: #222222;
+	font-weight: 700;
+}
+
+/* FIRST SECTION HOMEPAGE */
+
+#firstsection {
+    background-image: url('/Design/pexels-photo-450036.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    max-width: 100%;
+    height: auto;
+    min-height: 95vh;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 0 96%);
+  	clip-path: polygon(0 0, 100% 0, 100% 89%, 0 96%);
+}
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+div.logo {
+	display: inline-block;
+	width: 10%;
+	height: 60px;
+	padding-top: 30px;
+	padding-left: 100px; 
+}
+
+#imglogo {
+  width: 100%;
+  height: 60px;
+  background: url(/Design/FarNorthLogoWhite.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.underlogo{
+	color: #fafafa;
+	font-size: 16px;
+	font-weight: 500;
+    max-width: 100%;
+    text-align: center;
+}
+
+div.nav-container {
+	display: flex;
+	flex-direction: row;
+}
+
+div.firstsection-text {
+	padding-left: 70px;
+	padding-top: 12%;
+	color: #fafafa;
+	text-align: center;
+	font-size: 4em;
+}
+
+/* SECOND SECTION */
+
+#secondsection {
+	background-color: #fafafa;
+	max-width: 100%;
+ 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  	clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  	display: flex;
+  	flex-direction: column;
+  	padding-top: 50px;
+  	padding-bottom: 5%;
+}
+
+div.title-secondsection {
+	text-align: center;
+	font-size: 3em;
+	max-width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+div.text-secondsection {
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.3;
+	max-width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 30px;
+}
+
+/* THIRD SECTION */
+#thirdsection {
+    background-image: url('/Design/backgroundthirdsection.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    max-width: 100%;
+    padding-bottom: 15%;
+	-webkit-clip-path: polygon(0% 4%, 100% 11%, 100% 89%, 0 96%);
+    clip-path: polygon(0% 4%, 100% 11%, 100% 89%, 0 96%);
+}
+
+div.iconscontainer {
+	padding-left: 25%;
+	padding-top: 7.5%;
+}
+div.icons {
+	padding-top: 50px;
+	color: #ffffff;
+	max-width: 60%;
+	display: flex;
+	flex-direction: row;
+}
+
+span.texticons{
+	padding-top: 5px;
+	padding-left: 50px;
+	line-height: 1.3; 
+}
+
+h1.titletexticons {
+	margin-bottom: 5px;
+}
+
+/* FOURTH SECTION */
+#fourthsection {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 7.5%;
+}
+
+div.title-fourthsection {
+	text-align: center;
+	font-size: 3em;
+	max-width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+div.container-squares {
+	display: flex;
+	flex-direction: row;
+	margin-left: 7.5%;
+	margin-right: 7.5%; 
+	padding-top: 3%;
+}
+
+div.square {
+	height: 250px;
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#square1 {
+	background-image: url('/Design/MacbookFarNorth2.0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+	/* -webkit-clip-path: polygon(0% 11%, 100% 0%, 100% 100%, 0 89%);
+    clip-path: polygon(0% 11%, 100% 0%, 100% 100%, 0 89%);	*/
+}
+
+#square2 {
+	background-image: url('/Design/MacbookFarNorth3.0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+#square3 {
+	background-image: url('/Design/MacbookFarNorth4.0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+	/*-webkit-clip-path: polygon(0% 0%, 100% 11%, 100% 89%, 0 96%); 
+    clip-path: polygon(0% 0%, 100% 11%, 100% 89%, 0 96%); */
+}
+
+#square1:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#square2:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+#square3:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+/* FIFTH SECTION */
+#fifthsection {
+    max-width: 100%;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+}
+
+div.title-fifthsection {
+	font-size: 3em;
+  color: #fafafa;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+}
+
+.formcontainer {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	margin: 2.5% 25% 2.5% 25%;
+	color: #fafafa;
+}
+
+.formInput{
+	padding-right: 50%;
+}
+
+.inputcontainer {
+  margin-left: 25%;
+  margin-right: 25%;
+  max-width: 50%;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+#messageForm {
+	padding-bottom: 75px;
+	padding-top: 0px;
+}
+
+#submitbutton {
+	width: 150px;
+	height: 30px;
+	border: 2px solid #fafafa;
+	opacity: 1;
+}
+
+#submitbutton:hover{
+	background-color: #424242;
+	transition: 0.7s;
+	color: #fafafa;
+}
+
+#firstForm {
+  margin-bottom: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+#secondForm {
+  margin-bottom: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+}
+
+#messageForm {
+  margin-bottom: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 35px;
+}
+
+/* FOOTER */
+
+footer {
+	height: 150px;
+	background-color: #000000;
+  padding-top: 1px;
+}
+
+.footercontainer {
+	color: #fafafa;
+	text-align: center;
+	margin: 50px 25% 0 25%;
+	width: 50%; 
+}
+
+#tothetop:hover{
+	border-bottom: 2px solid #fafafa;
+}
+
+
+
+/* RESPONSIVE CODES */
+@media screen 
+and (max-width: 1500px)
+and (min-width: 1201px) {
+
+	body{
+		font-size: 16px;
+	}
+
+	span.texticons{
+		padding-top: 20px;
+	}
+
+}
+
+@media screen 
+and (max-width: 1200px)
+and (min-width: 801px) {
+    body {
+        font-size: 16px;
+    }
+
+    div.iconscontainer {
+    	padding-left: 15%;
+    }
+
+    div.icons{
+    	max-width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16px;
+    }
+    #thirdsection {
+    	padding-bottom: 15%;
+    }
+
+    div.iconscontainer {
+    	padding-left: 10%;
+    }
+
+    div.icons {
+    	max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+}
+ 
